@@ -19,6 +19,17 @@ object Main extends App {
     }
   }
 
+  def oddOrEven(number: Int) = {
+    if(number % 2 == 0) println(number + " is even number")
+    else println(number + " is odd number")
+  }
+
+  oddOrEven(2)
+  oddOrEven(3)
+  oddOrEven(33)
+  oddOrEven(44)
+  oddOrEven(10)
+
   categorizeDayOfWeek(1)
   categorizeDayOfWeek(3)
   categorizeDayOfWeek(4)
