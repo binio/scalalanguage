@@ -3,7 +3,7 @@ import java.sql.Date
 
 import scala.io.Source
 import java.time.LocalTime
-import com.binio.utils.Utils._
+import com.binio.utils.Utils.greet
 
 
 object Main extends App {
