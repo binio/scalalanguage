@@ -1,5 +1,18 @@
+package com.binio.scala
+import java.sql.Date
+
+import scala.io.Source
+import java.time.LocalTime
+import com.binio.utils.Utils._
+
+
 object Main extends App {
   println("Hello, Thomas 1234!")
+  greet("Tomasz")
+
+  def readFileIntoString(name: String) =
+    Source.fromFile(name).getLines().mkString
+  val date: Date = new Date(LocalTime.now().toSecondOfDay())
 
   def mark(q1: Double, q2: Double, q3: Double) =
     Math.round(((q1 + q2 + q3) / 3) * 10 / 3)
