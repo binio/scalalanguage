@@ -7,7 +7,7 @@ import com.binio.utils.Utils.greet
 
 
 object Main extends App {
-  println("Hello, Thomas 1234!")
+
   greet("Tomasz")
 
   def readFileIntoString(name: String) =
